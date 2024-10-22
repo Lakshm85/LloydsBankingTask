@@ -14,7 +14,7 @@ struct ProductDetailView: View {
     let productTitle: String
     let productPrice: Double
     var body: some View {
-        VStack(spacing:5){
+        VStack(spacing:Constants.StringConstants.verticalspacing){
             AsyncImage(url: URL(string: productImage)) { image in
                 image
                     .resizable()
