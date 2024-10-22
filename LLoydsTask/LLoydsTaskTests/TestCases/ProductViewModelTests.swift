@@ -49,7 +49,7 @@ class ProductViewModelTests: XCTestCase {
             .store(in: &cancellables)
     }
     
-    //Test for productsFailre scenario...
+    //Test for productsFailure scenario...
     func testFetchProductsFailure() {
         // Given
         mockNetworkService.error = URLError(.badServerResponse)
