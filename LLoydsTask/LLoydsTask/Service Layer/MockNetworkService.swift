@@ -5,8 +5,8 @@
 //  Created by Lakshmi Narasimha on 22/10/24.
 //
 
-import Combine
 import Foundation
+import Combine
 
 class MockNetworkService: NetworkServiceProtocol {
     var products: [ProductModel] = []
