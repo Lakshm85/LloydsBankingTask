@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// MARK: - Product List View
+// MARK: - Products View
 struct ContentView: View {
     @StateObject  var productViewModel = ProductViewModel()
     var body: some View {
