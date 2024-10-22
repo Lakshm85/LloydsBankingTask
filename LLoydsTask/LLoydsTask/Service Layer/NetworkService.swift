@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 
-//MARK: Network Service Protocol for Mocking
+//MARK: Network Service Protocol
 protocol NetworkServiceProtocol {
     func fetchProducts(limit: Int) -> AnyPublisher<[ProductModel], Error>
 }
