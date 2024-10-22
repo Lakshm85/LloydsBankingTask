@@ -39,7 +39,7 @@ struct ProductRowView: View {
     var body: some View {
         HStack {
             NavigationLink(destination: ProductDetailView(productImage: product.image, productTitle: product.title, productPrice: product.price)) {
-                // Load Image in Async
+                // Async image Loading
                 AsyncImage(url: URL(string: product.image)) { image in
                     image.resizable()
                         .frame(width: Constants.StringConstants.imageWidth, height: Constants.StringConstants.imageHeight)
